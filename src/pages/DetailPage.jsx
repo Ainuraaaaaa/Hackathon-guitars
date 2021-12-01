@@ -2,6 +2,7 @@ import { phoneDetails, ShoppingCart } from '@mui/icons-material';
 import { Button } from '@mui/material';
 import React, { useContext, useEffect } from 'react';
 import { useParams } from 'react-router';
+import Comments from '../component/Comments';
 import { clientContext } from '../context/ClientContext';
 
 
@@ -46,6 +47,8 @@ const DetailPage = () => {
                             </ul>
                         </div>
                     </div>
+                    <Comments productId={getDetails.id} />
+
                 </div>
             ) : (
                 <h2>Loading</h2>

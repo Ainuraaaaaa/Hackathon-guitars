@@ -82,5 +82,12 @@
       "price": 50800,
       "id": 9
     }
+  ],
+  "comments": [
+    {
+      "comment": "гитара топ",
+      "commentator": "erlan",
+      "id": 1
+    }
   ]
 }
