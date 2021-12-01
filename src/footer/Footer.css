@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+/* font-family: 'Work Sans', sans-serif;  */
+
+.mainFtr {
+    background: darkseagreen;
+    /* height: 300px; */
+    padding-top: 40px;
+}
+
+@media all and (max-width: 560px) {
+    .coMainFtr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+}
+
+
+.coMainFtr {
+    font-family: 'Frank Ruhl Libre', serif;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.bireki {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.number {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.mainFtr h5 {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.mainFtr a {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.iconsimg a {
+    margin-top: 50px;
+}
+
+.fourth {
+    color: black;
+    font-size: 14px;
+}
+
+.inpu {
+    width: 250px;
+    margin-left: 30px;
+}
+
+.lastSpan {
+    font-family: "Nanum Gothic", sans-serif;
+    color: black;
+}

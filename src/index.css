@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
+  background-color: lemonchiffon;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.add-page, .edit-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-page form, .edit-page form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.add-page form input, .edit-page form input {
+  margin: 5px;
+}
+
+.add-page form button, .edit-page form button {
+  margin-top: 15px;
+}
+
+/* main page */
+
+.main-page {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr;
+  color: black;
+
+
+
+}
+
+.guitars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 80px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.detail-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.detail-image {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.detail-image img {
+  width: 90%;
+  object-fit: contain;
+}
+
+.character strong {
+  width: 100px;
+  display: inline-block;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination ul {
+  display: flex;
+  list-style-type: none;
+}
+
+
+
+.guitars image {
+  background-size: contain !important;
+  object-fit: contain;
+}
+
+@media all and (max-width: 375px) {
+  .carousel {
+    display: none;
+  }
+
+  .logo {
+    background-image: none;
+  }
+}
+
+.cards:hover {
+  font-family: 'Oswald', sans-serif;
+  /* width: 600px; */
+  transition: 1s;
+  cursor: pointer;
+  background-color: lightgray;
+}
